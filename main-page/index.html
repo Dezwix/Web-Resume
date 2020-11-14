@@ -9,11 +9,10 @@
     </head>
     <body>
         <div id="sidenav">
-            <a href="#" class="link active">HOME</a>
-            <a href="#" class="link">SERVICES</a>
-            <a href="#" class="link">SKILLS</a>
-            <a href="#" class="link">PROJECTS</a>
-            <a href="#" class="link">CONTACT</a>
+            <a href="#home" class="link active">HOME</a>
+            <a href="#skills" class="link">SKILLS</a>
+            <a href="#projects" class="link">PROJECTS</a>
+            <a href="#contact" class="link">CONTACT</a>
             <div class="footer">
                 <ul class="social-icons list-inline">
                     <li class="list-inline-item">
@@ -30,27 +29,24 @@
           </div>
           
           <div class="content">
-            <div class="heading">
+            <div class="heading" id="home">
                 <h1>HELLO,</h1>
-                <p>I am Aleksandr Anseev, Computer Programming student
-                    in Canada, Ottawa. I have experience in building
-                    web-sites and developing software. 
-                </p>
+                <button onclick="typeWriter()" id="typeBtn">click me to load data</button>
+                <p id="type"></p>
+                <span class="container">
+                    <img src="../images/mouse-icon.png" width="32px" height="32px" class="mouse-icon">
+                </span>
             </div>
             <hr class="break-line">
-            <div class="second">
-                <h1>SERVICES</h1>
-            </div>
-            <hr class="break-line">
-            <div class="second">
+            <div class="second" id="skills"> 
                 <h1>SKILLS</h1>
             </div>
             <hr class="break-line">
-            <div class="second">
+            <div class="second" id="projects">
                 <h1>PROJECTS</h1>
             </div>
             <hr class="break-line">
-            <div class="second">
+            <div class="second" id="contact">
                 <h1>CONTACT</h1>
             </div>
           </div>
