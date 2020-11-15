@@ -26,6 +26,57 @@ button {
     font-size: 20px;
 }
 
+#typeBtn:hover {
+    background-color: #ddd;
+    color: #111;
+}
+
+#hire {
+    margin-top: 40px;
+    opacity: 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ae00b4;
+    border: 0px;
+    height: 40px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+#hire a {
+    display: block;
+    border: 2px #ddd solid;
+    text-decoration: none;
+    color: #95ccff;
+}
+
+#hire:hover {
+    /* background-color: #95ccff; */
+    height: 50px;
+    font-size: 30px;
+}
+
+#hire a:hover {
+    background-color: #95ccff;
+    color: #111;
+}
+
+#hireBarBtn {
+    font-size: 20px;
+    width: 50%;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-item {
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;

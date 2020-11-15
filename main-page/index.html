@@ -5,24 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <div id="sidenav">
             <a href="#home" class="link active">HOME</a>
             <a href="#skills" class="link">SKILLS</a>
+            <a href="#education" class="link">EDUCATION</a>
             <a href="#projects" class="link">PROJECTS</a>
             <a href="#contact" class="link">CONTACT</a>
             <div class="footer">
                 <ul class="social-icons list-inline">
                     <li class="list-inline-item">
-                        <a href="#" class="fa fa-github"></a>
+                        <a href="https://github.com/Dezwix" target="_blank" class="fa fa-github"></a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="https://linkedin.com/in/aleksandr-anseev" target="_blank" class="fa fa-linkedin"></a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#" class="fa fa-at"></a>
+                        <a href="mailto:anse0012@algonquinlive.com" class="fa fa-at"></a>
                     </li>
                 </ul>
             </div>
@@ -33,6 +35,8 @@
                 <h1>HELLO,</h1>
                 <button onclick="typeWriter()" id="typeBtn">click me to load data</button>
                 <p id="type"></p>
+                <button id="hire"><a href="#contact">HIRE ME</a></button>
+                <br>
                 <span class="container">
                     <img src="../images/mouse-icon.png" width="32px" height="32px" class="mouse-icon">
                 </span>
@@ -40,6 +44,78 @@
             <hr class="break-line">
             <div class="second" id="skills"> 
                 <h1>SKILLS</h1>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <h4>Java</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="w3-container">
+                            <div class="w3-light-grey">
+                                <div id="java" class="w3-container w3-red w3-center" style="width:92%">92%</div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <h4>Web-skills (HTML/CSS and JS/PHP)</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="w3-container">
+                            <div class="w3-light-grey">
+                                <div id="web" class="w3-container w3-orange w3-center" style="width:90%">90%</div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <h4>Database skills (mySQL/postgreSQL/OracleSQL)</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="w3-container">
+                            <div class="w3-light-grey">
+                                <div id="db" class="w3-container w3-yellow w3-center" style="width:85%">85%</div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <h4>C++/C#</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="w3-container">
+                            <div class="w3-light-grey">
+                                <div id="cpp" class="w3-container w3-green w3-center" style="width:80%">80%</div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <h4>Co-op experience from you</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="w3-container">
+                            <div class="w3-light-grey">
+                                <div id="coop" class="w3-container w3-blue w3-center" style="width:0%">0%</div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <button id="hireBarBtn" class="w3-button w3-purple" onclick="move('web', 85); move('java', 92); move('db', 85); move('cpp', 80); move('coop', 0)">
+                    Click this button to see what happens if you hire me!</button>
+                
+            </div>
+            <hr class="break-line">
+            <div class="second" id="education">
+                <h1>EDUCATION</h1>
             </div>
             <hr class="break-line">
             <div class="second" id="projects">
