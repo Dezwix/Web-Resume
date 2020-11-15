@@ -245,4 +245,8 @@ p {
     .social-icons {
         opacity: 0;
     }
+
+    .second {
+        height: 130vh;
+    }
   }
