@@ -247,6 +247,6 @@ p {
     }
 
     .second {
-        height: 150vh;
+        height: fit-content;
     }
   }
