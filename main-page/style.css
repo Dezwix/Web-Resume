@@ -235,7 +235,8 @@ p {
     }
 
     .heading {
-        width: 70vw;;
+        width: 70vw;
+        height: 140vh;
     }
 
     .mouse-icon {
